@@ -93,8 +93,4 @@ project-root/
 ## 📈 Future Plans
 
 - 🧩 **Browser Extension**: Develop a Chrome/Edge extension to scan the current page in real-time and highlight broken links directly in the browser.
-- 🔐 OAuth integration (Google/GitHub login support)
-- 🔔 Slack/Discord notifications for scan reports
-- 📤 Export reports in CSV or PDF formats
-- 🔁 Auto-fix broken links via CMS (WordPress, Ghost, etc.) integration
 - 🧠 Add AI-powered SEO metadata audit (titles, descriptions, keywords)
