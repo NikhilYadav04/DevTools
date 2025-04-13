@@ -1,0 +1,26 @@
+{
+  "manifest_version": 1,
+  "name": "LinkFixer",
+  "version": "1.0.0",
+  "description": "Chrome extension that identifies both broken and working links on a website, providing detailed insights to help repair broken links and improve site functionality.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "extension.html"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+
+  "content_scripts": [
+    {
+      "js": ["src/content.tsx"],
+      "matches": ["https://*/*"]
+    }
+  ],
+  "background": {
+    "service_worker": "src/background.js"
+  }
+}
